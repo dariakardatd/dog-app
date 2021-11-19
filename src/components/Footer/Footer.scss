@@ -1,0 +1,38 @@
+.footerWrapper {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  // align-items: center;
+  width: 100%;
+  background-color: rgb(75, 96, 134);
+  margin: 0 auto;
+  // max-width: 800px;
+  padding: 42px 20px;
+  color: white;
+}
+
+.footer__linksWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__btn {
+  border:0;
+  padding:0;
+  margin:0;
+  background: transparent;
+  color: white;
+  font-size: calc(10px + .5vmin);   
+}
+
+.footer__logoWrapper {
+  text-align: center;
+  margin-top: 20px;
+  // width: calc(10px + .5vmin);  
+}
+
+.footer__subText {
+  text-align: center;
+  margin-top: 20px;
+  // width: calc(10px + .5vmin);  
+}

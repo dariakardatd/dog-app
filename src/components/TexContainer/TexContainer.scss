@@ -1,0 +1,15 @@
+.TexContainer__wrapper {
+  font-size: calc(9px + .5vmin);
+  margin-top: 50px;
+  padding: 20px;
+  
+
+ &.withBorder {
+  font-style: italic;
+  border-left: 10px solid peachpuff;
+ }
+ &.italic {
+  font-style: italic;
+  padding: 0;
+ }
+}

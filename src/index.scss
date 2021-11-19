@@ -1,13 +1,23 @@
 @import './App';
 
+@import "~bootstrap/scss/bootstrap";
+
 
 
 //components
 @import './components/Header/Header.scss';
+@import './components/ArticleTitle/ArticleTitle.scss';
+@import './components/TrendsBox/TrendsBox.scss';
+@import './components/Picture/Picture.scss';
+@import './components/TexContainer/TexContainer.scss';
+@import './components/DogSwitchCarousel/DogSwitchCarousel.scss';
+@import './components/Footer/Footer.scss';
 
 
 
-
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -21,4 +31,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
 }

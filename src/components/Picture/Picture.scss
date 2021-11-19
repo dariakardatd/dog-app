@@ -1,0 +1,33 @@
+.imgWithQuoteWrapper {
+  position: relative;
+  // margin-bottom: 30px;
+}
+
+.imgWithQuoteInner__dogPic {
+  width: 100%;
+  height: auto;
+}
+
+.imgWithQuoteInner__caption {
+  .Picture__captionBackground & {
+    bottom: 0;
+    position: absolute;
+    background-color: rgb(42, 52, 75);
+    width: 100%;
+    padding: 10px;
+    color: white;
+  }
+
+  .captionBottom & {
+    margin-top: 20px;
+    font-size: calc(6px + 0.5vmin);
+    padding: 10px;
+    font-style: italic;
+  }
+
+  .photoBy & {
+    font-size: calc(7px + 0.5vmin);
+    padding: 12px;
+    font-weight: bold;
+  }
+}

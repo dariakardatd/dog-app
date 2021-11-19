@@ -1,0 +1,48 @@
+.trendsBox__wrapper {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+
+  padding-top: calc((330 / 300) * 100%);
+
+  margin-top: 50px;
+  background-color: rgb(42, 52, 75);
+  color: peachpuff;
+
+  &.peach {
+    background-color: peachpuff;
+    color: rgb(42, 52, 75);
+  }
+
+  & .trendsBox__wrapperBorder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    padding: 30px;
+    border: 1px solid peachpuff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &.peach {
+      border: 1px solid rgb(42, 52, 75);
+    }
+  }
+
+  & .trendsBox__title {
+    font-size: calc(18px + 1vmin);
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  & .trendsBox__text {
+    font-size: calc(14px + .5vmin);
+  }
+
+}
